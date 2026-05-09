@@ -14,13 +14,13 @@ export default function Footer() {
               Designing spaces that inspire. Elevating modern living through thoughtful architecture and luxury interior design.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="p-2 border border-white/20 hover:border-softGold hover:text-softGold transition-colors"><FaInstagram size={20} /></a>
-              <a href="#" className="p-2 border border-white/20 hover:border-softGold hover:text-softGold transition-colors"><FaLinkedin size={20} /></a>
-              <a href="#" className="p-2 border border-white/20 hover:border-softGold hover:text-softGold transition-colors"><FaXTwitter size={20} /></a>
+              <a href="#" className="p-2 border border-white/20 hover:border-softGold hover:text-[#D4AF37] transition-colors"><FaInstagram size={20} /></a>
+              <a href="#" className="p-2 border border-white/20 hover:border-softGold hover:text-[#D4AF37] transition-colors"><FaLinkedin size={20} /></a>
+              <a href="#" className="p-2 border border-white/20 hover:border-softGold hover:text-[#D4AF37] transition-colors"><FaXTwitter size={20} /></a>
             </div>
           </div>
           <div>
-            <h4 className="font-serif text-xl mb-6 text-softGold">Quick Links</h4>
+            <h4 className="font-serif text-xl mb-6 text-[#D4AF37]">Quick Links</h4>
             <ul className="space-y-4 text-gray-400 text-sm tracking-widest uppercase">
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="/services" className="hover:text-white transition-colors">Services</Link></li>
@@ -29,11 +29,11 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-serif text-xl mb-6 text-softGold">Newsletter</h4>
+            <h4 className="font-serif text-xl mb-6 text-[#D4AF37]">Newsletter</h4>
             <p className="text-gray-400 text-sm mb-4">Subscribe to receive design insights and studio updates.</p>
             <div className="flex border-b border-white/20 pb-2">
               <input type="email" placeholder="Your Email Address" className="bg-transparent border-none outline-none w-full text-sm placeholder-gray-600" />
-              <button className="text-softGold hover:text-white transition-colors"><ArrowRight size={20} /></button>
+              <button className="text-[#D4AF37] hover:text-white transition-colors"><ArrowRight size={20} /></button>
             </div>
           </div>
         </div>

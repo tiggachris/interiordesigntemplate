@@ -19,7 +19,7 @@ export default function Projects() {
     <div className="pt-32 pb-24 bg-white min-h-screen">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="text-center mb-16">
-          <h1 className="font-serif text-5xl md:text-6xl text-matteBlack mb-8">Selected Works</h1>
+          <h1 className="font-serif text-5xl md:text-6xl text-[#1A1A1A] mb-8">Selected Works</h1>
           
           {/* Filters */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
@@ -29,8 +29,8 @@ export default function Projects() {
                 onClick={() => setActiveFilter(cat)}
                 className={`px-6 py-2 text-sm uppercase tracking-widest border transition-all ${
                   activeFilter === cat 
-                    ? "bg-matteBlack text-white border-matteBlack" 
-                    : "border-gray-200 text-gray-500 hover:border-matteBlack hover:text-matteBlack"
+                    ? "bg-matteBlack text-black border-matteBlack" 
+                    : "border-gray-200 text-gray-500 hover:border-matteBlack hover:text-[#1A1A1A]"
                 }`}
               >
                 {cat}
@@ -60,7 +60,7 @@ export default function Projects() {
                     className="object-cover group-hover:scale-110 transition-transform duration-700" 
                   />
                   <div className="absolute inset-0 bg-matteBlack/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
-                    <p className="text-softGold text-xs uppercase tracking-widest mb-2">{project.category}</p>
+                    <p className="text-[#D4AF37] text-xs uppercase tracking-widest mb-2">{project.category}</p>
                     <h3 className="font-serif text-2xl text-white">{project.title}</h3>
                   </div>
                 </div>

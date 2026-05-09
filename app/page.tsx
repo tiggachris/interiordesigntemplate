@@ -28,17 +28,17 @@ export default function Home() {
           initial="hidden"
           animate="visible"
         >
-          <motion.p variants={fadeUp} className="text-softGold uppercase tracking-[0.3em] mb-4 text-sm font-medium">
+          <motion.p variants={fadeUp} className="text-[#D4AF37] uppercase tracking-[0.3em] mb-4 text-sm font-medium">
             Premium Interior Design Studio
           </motion.p>
           <motion.h1 variants={fadeUp} className="font-serif text-5xl md:text-7xl lg:text-8xl text-white mb-8 max-w-5xl mx-auto leading-tight">
             Designing Spaces <br /> That Inspire
           </motion.h1>
           <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-softGold text-matteBlack px-8 py-4 uppercase tracking-widest text-sm font-semibold hover:bg-white transition-colors flex items-center gap-2">
+            <button className="bg-softGold text-[#1A1A1A] px-8 py-4 uppercase tracking-widest text-sm font-semibold hover:bg-white transition-colors flex items-center gap-2">
               View Projects <ArrowRight size={16} />
             </button>
-            <button className="border border-white text-white px-8 py-4 uppercase tracking-widest text-sm font-semibold hover:bg-white hover:text-matteBlack transition-colors">
+            <button className="border border-white text-white px-8 py-4 uppercase tracking-widest text-sm font-semibold hover:bg-white hover:text-[#1A1A1A] transition-colors">
               Book Consultation
             </button>
           </motion.div>
@@ -56,13 +56,13 @@ export default function Home() {
             className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
           >
             <div>
-              <motion.h2 variants={fadeUp} className="font-serif text-4xl md:text-5xl text-matteBlack mb-6">
+              <motion.h2 variants={fadeUp} className="font-serif text-4xl md:text-5xl text-[#1A1A1A] mb-6">
                 Redefining Modern <br /> Luxury Living.
               </motion.h2>
               <motion.p variants={fadeUp} className="text-gray-500 leading-relaxed mb-8">
                 We believe that interior design is more than just aesthetics; it's about creating an environment that elevates your daily life. Our approach blends minimalist architecture with warm, inviting textures to craft spaces that feel both expansive and deeply personal.
               </motion.p>
-              <motion.button variants={fadeUp} className="text-matteBlack border-b border-matteBlack pb-1 uppercase tracking-widest text-sm hover:text-softGold hover:border-softGold transition-colors">
+              <motion.button variants={fadeUp} className="text-[#1A1A1A] border-b border-matteBlack pb-1 uppercase tracking-widest text-sm hover:text-[#D4AF37] hover:border-softGold transition-colors">
                 Read Our Story
               </motion.button>
             </div>
